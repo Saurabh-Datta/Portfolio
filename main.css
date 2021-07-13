@@ -1,0 +1,15 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --cyan: #0ffff0;
+}
+
+*{
+    color: var(--fontColor);
+    font-family: Helvetica;
+}
+
+body{
+    
+}
