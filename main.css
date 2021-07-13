@@ -35,3 +35,13 @@
     width: 100%;
     padding: 20px;
   }
+
+  #Msg {
+     color: gray;
+     height: 100px;
+  }
+
+  #csumbit {
+      color: green;
+      background-color: green;
+  }
