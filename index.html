@@ -6,24 +6,36 @@
     <body>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="main.css">
-        <video loop muted autoplay id="bgVideo">
-            <source src="./Assets/bgvideo.mp4" type="video/mp4">
-        </video>
-        <div id="content">
-            <h1>Saurabh Datta</h1>
+        <div class="topnav">
+            <div id="navDivs">
+                <a class="active" href="#home">Home</a>
+            </div>
+            <div id="navDivs">
+                <a href="#about">About</a>
+            </div>
+            <div id="navDivs">
+                <a href="#blog">Blog</a>
+            </div>
+            <div id="navDivs">
+                <a href="#contact">Contact</a>
+            </div>
+        </div> 
+        <div>
+            <video loop muted autoplay id="bgVideo">
+                <source src="./Assets/bgvideo.mp4" type="video/mp4">
+            </video>
             <hr>
+            <div id="Logo" align="center">
+                <h1>Saurabh Datta</h1>
+            </div>
         </div>
-        <div id="c_form">
+        <div id="contact" align="center">
             <h2>Contact Me</h2>
-            <form id="contact">
                 <label>Name</label>
-                <input type="text" id="Name"><br>
+                <input id="name" type="text" placeholder="Enter your name!">
+                <br>
                 <label>Email</label>
-                <input type="email" id="Email"><br>
-                <label>Enter</label>
-                <input id="Msg" type="textarea" id="Message" placeholder="Enter your message here!"><br>
-                <button id="csubmit">Submit</button>
-            </form>
+                <input id="email" type="email" placeholder="Example@email.com">
         </div>
     </body>
 </html>
