@@ -8,6 +8,7 @@
 *{
     color: var(--fontColor);
     font-family: Helvetica;
+    scroll-behavior: smooth;
 }
 body {
   background-color: black;
@@ -60,7 +61,7 @@ body {
   }
 
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #04AAA9;
     color: white;
     width: 68%;
   }
@@ -87,4 +88,9 @@ body {
 
   #contact #email {
     color:gray;
+  }
+
+  #home {
+    position: static;
+    top:0%;
   }
