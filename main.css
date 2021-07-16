@@ -93,8 +93,8 @@ body {
 
   #contact #msg {
     color: gray;
-    height: 20vmax;
-    width: 20vw;
+    height: 15vmax;
+    width: 34vw;
   }
 
   #home {
@@ -105,9 +105,9 @@ body {
   #contact .inp {
     background-color: dodgerblue;
     border: none;
-    border-radius: 7%;
+    border-radius: 8%;
     height: 4vh;
-    width: 10vw;
+    width: wrap;
   }
 
   #about {
@@ -118,11 +118,20 @@ body {
     color: white;
   }
 
-  #bino {
-    height: 50px;
-    width: 50px;
+  #map {
+    color: turquoise;
+  }
+
+  #rocket {
+    color: turquoise;
+  }
+
+  #skills {
+    border: 2px solid white;
     position: relative;
-    float: left;
+    top: 0%;
+    padding: 3vw;
+    color: white;
   }
 
   @media only screen and (max-width:768px) {
