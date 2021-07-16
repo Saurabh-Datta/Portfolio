@@ -73,11 +73,12 @@ body {
 
   #contact {
     position: relative;
-    bottom: 0px;
+    bottom: 0%;
     color: white;
-    left: 42%;
+    left: 35%;
     background: rgba(0,0,0,0.8);
-    width: 20%;
+    width: 33%;
+    text-align: center;
     padding: 0px;
     margin: 0px;
   }
@@ -90,7 +91,21 @@ body {
     color:gray;
   }
 
+  #contact #msg {
+    color: gray;
+    height: 20vmax;
+    width: 20vw;
+  }
+
   #home {
     position: static;
     top:0%;
+  }
+
+  #contact .inp {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 7%;
+    height: 4vh;
+    width: 10vw;
   }
