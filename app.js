@@ -38,3 +38,5 @@ function typeWriter3() {
   }
 
   typeWriter3();
+
+  console.log("Hello Developer! Find me on GitHub: https://github.com/Saurabh-Datta");
