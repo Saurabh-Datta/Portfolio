@@ -135,15 +135,15 @@ body {
 
   @media only screen and (max-width:768px) {
     #Logo #welcome {
-      font-size: 40px;
+      font-size: 60px;
     }
 
     #Logo #line1 {
-      font-size: xx-large;
+      font-size: 50px;
     }
 
     #Logo #line2 {
-      font-size: x-large;
+      font-size: 40px;
     }
   
   }
