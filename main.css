@@ -145,6 +145,34 @@ body {
     #Logo #line2 {
       font-size: 40px;
     }
+
+    #contact {
+      width: 70%;
+      left: 20%;
+      font-size: x-large;
+    }
+
+    #contact #name {
+      height: 40px;
+      width: 300px;
+    }
+
+    #contact #email
+    {
+      height: 40px;
+      width: 300px;
+    }
+
+    #contact #msg {
+      height: 220px;
+      width: 300px;
+    }
+
+    #contact .inp {
+      height: 30px;
+      width: 80px;
+      font-size: large;
+    }
   
   }
 
