@@ -109,35 +109,12 @@ body {
     width: wrap;
   }
 
-  #about {
-    border: 2px solid white;
-    position: relative;
-    top: 0%;
-    padding: 3vw;
-    color: white;
-  }
 
-  #map {
+  #icons {
     color: turquoise;
   }
 
-  #rocket {
-    color: turquoise;
-  }
-
-  #brcase {
-    color: turquoise;
-  }
-
-  #skills {
-    border: 2px solid white;
-    position: relative;
-    top: 0%;
-    padding: 3vw;
-    color: white;
-  }
-
-  #exp {
+  .conte {
     border: 2px solid white;
     position: relative;
     top: 0%;
@@ -147,6 +124,12 @@ body {
 
   #comlogo {
     height: 50px;
+    float: left;
+    margin-right: 5px;
+  }
+
+  #edulogo {
+    height: 100px;
     float: left;
     margin-right: 5px;
   }
