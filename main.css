@@ -163,6 +163,10 @@ body {
       font-size: x-large;
     }
 
+    #Logo {
+      top: 15vh;
+    }
+
     #Logo #welcome {
       font-size: x-large;
     }
