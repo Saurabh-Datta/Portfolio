@@ -143,18 +143,18 @@ body {
 
     #contact #name {
       height: 30px;
-      width: 400px;
+      width: 300px;
     }
 
     #contact #email
     {
       height: 30px;
-      width: 400px;
+      width: 300px;
     }
 
     #contact #msg {
       height: 300px;
-      width: 400px;
+      width: 300px;
     }
 
     #contact .inp {
@@ -164,7 +164,7 @@ body {
     }
 
     #Logo {
-      top: 15vh;
+      top: 12vh;
     }
 
     #Logo #welcome {
