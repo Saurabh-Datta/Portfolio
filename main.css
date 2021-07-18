@@ -138,29 +138,41 @@ body {
     #contact {
       width: 100%;
       left: 0%;
-      font-size: xx-large;
+      font-size: x-large;
     }
 
     #contact #name {
-      height: 100px;
-      width: 600px;
+      height: 30px;
+      width: 400px;
     }
 
     #contact #email
     {
-      height: 100px;
-      width: 600px;
+      height: 30px;
+      width: 400px;
     }
 
     #contact #msg {
-      height: 500px;
-      width: 1000px;
+      height: 300px;
+      width: 400px;
     }
 
     #contact .inp {
-      height: 80px;
-      width: 150px;
-      font-size: xx-large;
+      height: 30px;
+      width: 100px;
+      font-size: x-large;
+    }
+
+    #Logo #welcome {
+      font-size: x-large;
+    }
+
+    #Logo #line1 {
+      font-size: large;
+    }
+
+    #Logo #line2 {
+      font-size: medium;
     }
   
   }
