@@ -155,7 +155,8 @@ body {
 
     #contact #msg {
       height: 300px;
-      width: 300px;
+      width: 370px;
+      resize: none;
     }
 
     #contact .inp {
